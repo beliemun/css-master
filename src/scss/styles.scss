@@ -1,5 +1,8 @@
 @import "_reset";
 @import "_variables";
+@import "buttons";
+@import "mixins";
+@import "../../bower_components/animatewithsass/animate.scss";
 
 body {
   background-color: $red;
@@ -15,9 +18,8 @@ img {
 }
 
 h1 {
-  color: white;
-  font-size: 24px;
-  margin: 15px;
+  @include rubberBand();
+  @include testContainer(white, "odd");
 }
 
 span {
@@ -26,3 +28,18 @@ span {
   font-size: 16px;
   margin-bottom: 15px;
 }
+
+a {
+  @extend %button;
+  text-decoration:none;
+}
+
+button {
+  @extend %button;
+  border:none;
+  &:focus {
+    outline: 0;
+  }
+  @include bounce();
+}
+

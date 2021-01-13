@@ -1,0 +1,9 @@
+@mixin testContainer($color, $word) {
+    @if $word == "odd" {
+        color: $color;
+    } @else {
+        color: black;
+    }
+    font-size: 24px;
+    margin: 15px;
+}

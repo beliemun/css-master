@@ -1,5 +1,7 @@
 # CSS Layout Masterclass
 
+Project for CSS Layout Masterclass
+
 ## Flexbox:
 
 - [x] Main Axis / Cross Axis

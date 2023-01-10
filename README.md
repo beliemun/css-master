@@ -1,3 +1,27 @@
-# (S)CSS 마스터 
+# CSS Layout Masterclass
 
-- 노마드 코더의 (S)CSS 마스터 강의를 수강하기 위해 생성돈 프로젝트입니다.
+## Flexbox:
+
+Main Axis / Cross Axis
+Column and Row
+align-self and order
+wrap, nowrap, reverse, align
+flex-grow, flex-shrink
+flex-basis
+
+## Grid:
+
+template areas
+rows and columns
+grid-template
+place-items
+auto-columns, auto-rows
+minmax
+
+## SCSS:
+
+Variables
+Nesting
+Mixins
+Extends
+auto-fill, auto-fit

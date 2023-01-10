@@ -2,26 +2,26 @@
 
 ## Flexbox:
 
-Main Axis / Cross Axis
-Column and Row
-align-self and order
-wrap, nowrap, reverse, align
-flex-grow, flex-shrink
-flex-basis
+- [x] Main Axis / Cross Axis
+- [x] Column and Row
+- [x] align-self and order
+- [x] wrap, nowrap, reverse, align
+- [x] flex-grow, flex-shrink
+- [x] flex-basis
 
 ## Grid:
 
-template areas
-rows and columns
-grid-template
-place-items
-auto-columns, auto-rows
-minmax
+- [x] template areas
+- [x] rows and columns
+- [x] grid-template
+- [x] place-items
+- [x] auto-columns, auto-rows
+- [x] minmax
 
 ## SCSS:
 
-Variables
-Nesting
-Mixins
-Extends
-auto-fill, auto-fit
+- [x] Variables
+- [x] Nesting
+- [x] Mixins
+- [x] Extends
+- [x] auto-fill, auto-fit
